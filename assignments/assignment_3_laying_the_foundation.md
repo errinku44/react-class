@@ -2,7 +2,7 @@
 => JSX is Javscript Extension Syntax used in React to easily write HTML and Javascript together.
 JSX convert HTML tags into React elements.
  #### JSX Sytax
-const myElement = <h1>I Love JSX!</h1>;
+const myElement = `<h1>I Love JSX!</h1>`;
  #### Converted to React Element
 React.createElement("h1", null, "I Love JSX!");
 (Behind the scene Babel do this for us)
